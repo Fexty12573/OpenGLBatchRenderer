@@ -1,0 +1,9 @@
+
+newmtl FloorMaterial
+Ns 225.00000
+Ka 1.00000 1.00000 1.00000
+Kd 0.80000 0.80000 0.80000
+Ks 0.50000 0.50000 0.50000
+illum 2
+map_Kd seamless_wood.png
+map_Ks seamless_wood_specular.png

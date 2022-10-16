@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{f33a0f25-a337-4cf7-a948-b75e253a34dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models">
+      <UniqueIdentifier>{0449f448-5da6-4594-8a4f-eea93e24678e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{90cf4bd4-2025-4fd3-a6cb-826c61cc2c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\materials">
+      <UniqueIdentifier>{2f41129e-656d-4a86-815f-72a48832bc24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Models.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformBufferObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\axis.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\axis.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\cube.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\cube.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\triangle.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\triangle.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\models\arrow.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="res\models\cube.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="res\shaders\sphere.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\sphere.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\models\blender_sphere.obj">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="res\shaders\light.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\light.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\basic_light.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\basic_light.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\default_shading.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\default_shading.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\generic_texture.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\generic_texture.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\point_light.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\point_light.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\skybox.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="res\shaders\skybox.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\wooden_box.jpg">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
